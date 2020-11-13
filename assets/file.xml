@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DGICFE:EnvioCFE Version="1.0" xsi:schemaLocation="http://cfe.dgi.gub.uy EnvioCFE_v1.24.xsd" xmlns:DGICFE="http://cfe.dgi.gub.uy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DGICFE:Caratula Version="1.0">
+		<DGICFE:RutReceptor>21 592679 0014</DGICFE:RutReceptor>
+		<DGICFE:RUCEmisor></DGICFE:RUCEmisor>
+		<DGICFE:Idemisor>2020</DGICFE:Idemisor>
+		<DGICFE:CantCFE>1</DGICFE:CantCFE>
+		<DGICFE:Fecha>2020-11-09T04:14:12</DGICFE:Fecha>
+		<DGICFE:X509Certificate></DGICFE:X509Certificate>
+	</DGICFE:Caratula>
+	<ns0:CFE Version="1.0" xmlns:ns0="http://cfe.dgi.gub.uy">
+		<ns0:eTck>
+			<ns0:TmstFirma>2020-11-09T04:14:12</ns0:TmstFirma>
+			<ns0:Encabezado>
+				<ns0:IdDoc>
+					<ns0:TipoCFE>101</ns0:TipoCFE>
+					<ns0:Serie>FA2004</ns0:Serie>
+					<ns0:Nro>0009</ns0:Nro>
+					<ns0:FchEmis>2020-11-09</ns0:FchEmis>
+					<ns0:MntBruto>3743.64000000</ns0:MntBruto>
+					<ns0:FmaPago>4</ns0:FmaPago>
+					<ns0:FchVenc>2020-05-25</ns0:FchVenc>
+				</ns0:IdDoc>
+				<ns0:Emisor>
+					<ns0:RUCEmisor></ns0:RUCEmisor>
+					<ns0:RznSoc>Cavia M�guez Federico Ayar</ns0:RznSoc>
+					<ns0:CdgDGISucur>1</ns0:CdgDGISucur>
+					<ns0:DomFiscal>Ruta 48 11373</ns0:DomFiscal>
+					<ns0:Ciudad></ns0:Ciudad>
+					<ns0:Departamento></ns0:Departamento>
+				</ns0:Emisor>
+				<ns0:Receptor>
+					<ns0:TipoDocRecep>3</ns0:TipoDocRecep>
+					<ns0:CodPaisRecep>UY</ns0:CodPaisRecep>
+					<ns0:DocRecep>21 592679 0014</ns0:DocRecep>
+					<ns0:RznSocRecep>ESCUELA N� 200</ns0:RznSocRecep>
+					<ns0:DirRecep></ns0:DirRecep>
+					<ns0:CiudadRecep></ns0:CiudadRecep>
+					<ns0:DeptoRecep>0</ns0:DeptoRecep>
+				</ns0:Receptor>
+				<ns0:Totales>
+					<ns0:TpoMoneda>UYU</ns0:TpoMoneda>
+					<ns0:MntNoGrv>3068.56000000</ns0:MntNoGrv>
+					<ns0:MntNetoIvaTasaMin></ns0:MntNetoIvaTasaMin>
+					<ns0:MntNetoIVATasaBasica></ns0:MntNetoIVATasaBasica>
+					<ns0:IVATasaMin></ns0:IVATasaMin>
+					<ns0:IVATasaBasica></ns0:IVATasaBasica>
+					<ns0:MntIVATasaMin></ns0:MntIVATasaMin>
+					<ns0:MntIVATasaBasica></ns0:MntIVATasaBasica>
+					<ns0:MntTotal>3743.64000000</ns0:MntTotal>
+					<ns0:CantLinDet>2</ns0:CantLinDet>
+					<ns0:MntPagar>3743.64000000</ns0:MntPagar>
+				</ns0:Totales>
+			</ns0:Encabezado>
+			<ns0:Detalle>
+				<ns0:Item>
+					<ns0:NroLinDet>0</ns0:NroLinDet>
+					<ns0:IndFact>3</ns0:IndFact>
+					<ns0:NomItem>ARO 70 cm HULA HULA</ns0:NomItem>
+					<ns0:Cantidad>21</ns0:Cantidad>
+					<ns0:UniMed></ns0:UniMed>
+					<ns0:PrecioUnitario>168.03047619048</ns0:PrecioUnitario>
+					<ns0:MontoItem>3528.64000000</ns0:MontoItem>
+				</ns0:Item>
+				<ns0:Item>
+					<ns0:NroLinDet>1</ns0:NroLinDet>
+					<ns0:IndFact>3</ns0:IndFact>
+					<ns0:NomItem>ARO 80 cm HULA HULA</ns0:NomItem>
+					<ns0:Cantidad>1</ns0:Cantidad>
+					<ns0:UniMed></ns0:UniMed>
+					<ns0:PrecioUnitario>215</ns0:PrecioUnitario>
+					<ns0:MontoItem>215.00000000</ns0:MontoItem>
+				</ns0:Item>
+			</ns0:Detalle>
+			<ns0:CAEData>
+				<ns0:CAE_ID>1234567890</ns0:CAE_ID>
+				<ns0:DNro>1</ns0:DNro>
+				<ns0:HNro>100</ns0:HNro>
+				<ns0:FecVenc>2020-05-25</ns0:FecVenc>
+			</ns0:CAEData>
+		</ns0:eTck>
+	</ns0:CFE>
+</DGICFE:EnvioCFE>
