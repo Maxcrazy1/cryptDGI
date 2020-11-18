@@ -2,12 +2,12 @@
 require 'controllers/xmlController.php';
 require 'controllers/encryptController.php';
 
-const KEY_DGI = 'CERT_DGI_EFACTURA';
+const KEY_CERT = 'VamoPeñarol1891';
 
 $xmlObj = new XMLController();
 $encryptObj = new CryptController();
 
-$xml = $xmlObj->loadXml('firmedXml/original_edited.xml');
+$xml = $xmlObj->loadXml('firmedXml/example.xml');
 $xml->createElementNS("http://cfe.dgi.gub.uy", "ns0");
-$xml = $encryptObj->encrypt($xml, 'assets/mycert.pem', KEY_DGI);
+$xml = $encryptObj->encrypt($xml, 'assets/mycert.pfx', KEY_CERT);
 $xmlObj->saveXml($xml);

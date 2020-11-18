@@ -8,78 +8,6 @@
     <DGICFE:Fecha>2020-11-09T04:14:12</DGICFE:Fecha>
     <DGICFE:X509Certificate />
   </DGICFE:Caratula>
-  <ns0:CFE xmlns:ns0="http://cfe.dgi.gub.uy" Version="1.0">
-    <ns0:eTck>
-      <ns0:TmstFirma>2020-11-09T04:14:12</ns0:TmstFirma>
-      <ns0:Encabezado>
-        <ns0:IdDoc>
-          <ns0:TipoCFE>101</ns0:TipoCFE>
-          <ns0:Serie>FA2004</ns0:Serie>
-          <ns0:Nro>0009</ns0:Nro>
-          <ns0:FchEmis>2020-11-09</ns0:FchEmis>
-          <ns0:MntBruto>3743.64000000</ns0:MntBruto>
-          <ns0:FmaPago>4</ns0:FmaPago>
-          <ns0:FchVenc>2020-05-25</ns0:FchVenc>
-        </ns0:IdDoc>
-        <ns0:Emisor>
-          <ns0:RUCEmisor />
-          <ns0:RznSoc>Cavia M�guez Federico Ayar</ns0:RznSoc>
-          <ns0:CdgDGISucur>1</ns0:CdgDGISucur>
-          <ns0:DomFiscal>Ruta 48 11373</ns0:DomFiscal>
-          <ns0:Ciudad />
-          <ns0:Departamento />
-        </ns0:Emisor>
-        <ns0:Receptor>
-          <ns0:TipoDocRecep>3</ns0:TipoDocRecep>
-          <ns0:CodPaisRecep>UY</ns0:CodPaisRecep>
-          <ns0:DocRecep>21 592679 0014</ns0:DocRecep>
-          <ns0:RznSocRecep>ESCUELA N� 200</ns0:RznSocRecep>
-          <ns0:DirRecep />
-          <ns0:CiudadRecep />
-          <ns0:DeptoRecep>0</ns0:DeptoRecep>
-        </ns0:Receptor>
-        <ns0:Totales>
-          <ns0:TpoMoneda>UYU</ns0:TpoMoneda>
-          <ns0:MntNoGrv>3068.56000000</ns0:MntNoGrv>
-          <ns0:MntNetoIvaTasaMin />
-          <ns0:MntNetoIVATasaBasica />
-          <ns0:IVATasaMin />
-          <ns0:IVATasaBasica />
-          <ns0:MntIVATasaMin />
-          <ns0:MntIVATasaBasica />
-          <ns0:MntTotal>3743.64000000</ns0:MntTotal>
-          <ns0:CantLinDet>2</ns0:CantLinDet>
-          <ns0:MntPagar>3743.64000000</ns0:MntPagar>
-        </ns0:Totales>
-      </ns0:Encabezado>
-      <ns0:Detalle>
-        <ns0:Item>
-          <ns0:NroLinDet>0</ns0:NroLinDet>
-          <ns0:IndFact>3</ns0:IndFact>
-          <ns0:NomItem>ARO 70 cm HULA HULA</ns0:NomItem>
-          <ns0:Cantidad>21</ns0:Cantidad>
-          <ns0:UniMed />
-          <ns0:PrecioUnitario>168.03047619048</ns0:PrecioUnitario>
-          <ns0:MontoItem>3528.64000000</ns0:MontoItem>
-        </ns0:Item>
-        <ns0:Item>
-          <ns0:NroLinDet>1</ns0:NroLinDet>
-          <ns0:IndFact>3</ns0:IndFact>
-          <ns0:NomItem>ARO 80 cm HULA HULA</ns0:NomItem>
-          <ns0:Cantidad>1</ns0:Cantidad>
-          <ns0:UniMed />
-          <ns0:PrecioUnitario>215</ns0:PrecioUnitario>
-          <ns0:MontoItem>215.00000000</ns0:MontoItem>
-        </ns0:Item>
-      </ns0:Detalle>
-      <ns0:CAEData>
-        <ns0:CAE_ID>1234567890</ns0:CAE_ID>
-        <ns0:DNro>1</ns0:DNro>
-        <ns0:HNro>100</ns0:HNro>
-        <ns0:FecVenc>2020-05-25</ns0:FecVenc>
-      </ns0:CAEData>
-    </ns0:eTck>
-  </ns0:CFE>
   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -93,6 +21,25 @@
       </ds:Reference>
     </ds:SignedInfo>
     <ds:SignatureValue>lmIkv+U0LTndjIhKtvje14VgWWhYn2i2Z6oysbmh+fW51RKSTx8tRfUROyb95aOMpDLIDYp8txDRfp8aJC7NLUZuviWOIqXXk1yw5YKb1mmD0P0dzbDLg4LkPykGSaDiVupf9fenpmDXtuQHRBOiMMCkFz2gdZcaSMYmgG1lH6We8N4uaeCj3Juc5MHSvogWVEmXbk1w528KTvWp4wOxJsS9pbxJtJk6vW5k6ANIwE04yzG+LLMgqDWimxp0BOMvuncvIJfAllLW56jClp+7dBeQGBtReIFK+kY8M06worDLO9oP76D4Q79wq8HJXqWrc/YSm+MqC/U9W5pZpmUR3Q==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIEVDCCAzygAwIBAgIJAPTrkMJbCOr1MA0GCSqGSIb3DQEBBQUAMHkxCzAJBgNVBAYTAlVTMQ4wDAYDVQQIEwVNYWluZTESMBAGA1UEBxMJTGltaW5ndG9uMR8wHQYDVQQKExZ4bWxzZWNsaWJzLnBocCBMaWJyYXJ5MSUwIwYDVQQDExx4bWxzZWNsaWJzL3d3dy5jZGF0YXpvbmUub3JnMB4XDTA4MDcwNzIwMjIzMVoXDTE4MDcwNTIwMjIzMVoweTELMAkGA1UEBhMCVVMxDjAMBgNVBAgTBU1haW5lMRIwEAYDVQQHEwlMaW1pbmd0b24xHzAdBgNVBAoTFnhtbHNlY2xpYnMucGhwIExpYnJhcnkxJTAjBgNVBAMTHHhtbHNlY2xpYnMvd3d3LmNkYXRhem9uZS5vcmcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDttdMyM5ISVD1Uz+BHAPrxVJ6N1eZonfg3DMvZVT0Zy64+qcXj8zuHC6lolDsfGnD8LUttraQ7qCL+bHKps+hjAhCRdx5Wcn4iDrlFpxFL7INnr6vekzsCQ45BPUrvksF9FKa7yX4iSDButmPfoT14gPnIuSe8Y5UeGe6Lk6sF0WgHyL+JmxOu377Kuhah2pXZ1+z7V4JIlNgemJtKlqrvgGeuE9TagfGHUL9BuZK5fUx/RSDUjqxUeKU3fft9fGIAZl0dduitC2Otv4dr1gxLrUmI+ZZ75FmtfKQT7SmS92QVI2B5WAPlL1bnbvhkZiyw7nFE+Q/wGJ2myE4RIFjdAgMBAAGjgd4wgdswHQYDVR0OBBYEFEC5iG0uGXLpQG/zMj/4TuDWfTpHMIGrBgNVHSMEgaMwgaCAFEC5iG0uGXLpQG/zMj/4TuDWfTpHoX2kezB5MQswCQYDVQQGEwJVUzEOMAwGA1UECBMFTWFpbmUxEjAQBgNVBAcTCUxpbWluZ3RvbjEfMB0GA1UEChMWeG1sc2VjbGlicy5waHAgTGlicmFyeTElMCMGA1UEAxMceG1sc2VjbGlicy93d3cuY2RhdGF6b25lLm9yZ4IJAPTrkMJbCOr1MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBACmSKrte07VrGB8dtrN5mrt28ILickQjguu46h6vChgQ4YfIAoA1KWNsZJUuuIzTDjE5xz2hsW37CI0yrNesv2ho2hhP+fIaxCGmcwLYXL80UaPRglYk5+wPWFOt3QFAVoEgwjLX9+y+c2Gu7xLgHAFZVRjQ5hhKT0Nj3vhnt0k8LcognNl1wKuWda7VL4tODp/2IOXr5o5v/OL3UesGfeWfvr8LVmMc5f7/vLAu1+2Yk+/C9/EZyf3BDZQ4z8ae/iwqprCTUIEjhUDcq4+0YN2EIw6suGE2FtWlsIywNErmoOhdrmntU61n3nFCQBi7QDUnZrAFrl4/bmk3eRJ00nE=</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <ds:Reference>
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <ds:DigestValue>pks81do5hGQYVXHznvFGle/A3uWKSBF2KgXMbFOz9a0=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>0lbYo6QvRfPvjG1f+hmnikXTAxRZw/rb+iAKSY44fbHfusaojuGqX07molVzfyJ7NMN2Om9o7aYmj+Cpe5W44K6H9naVGquRpyFiACvVX6jUkuaekbQGRt1VOz6qnwv2BU0T283/wgXYmLXbQIGjm5dYN+3rPlg3K7Xn9CplC3mgYZ7Qa+qvi8Pr1N+vHapFW4szm7X81xsS+YVi7ZIn0jvo8FbSlFszzqquJRvnyucyczLip2XEETUlSO7hrtFu7yKru2PZviCC8/LRpM7wtuUG/igZ3zQxOMz1jFZG/j0i9TCpXD2wxQl6wCv98Ml79fqu3IKCZ7NI1K3b0VAoaw==</ds:SignatureValue>
     <ds:KeyInfo>
       <ds:X509Data>
         <ds:X509Certificate>MIIEVDCCAzygAwIBAgIJAPTrkMJbCOr1MA0GCSqGSIb3DQEBBQUAMHkxCzAJBgNVBAYTAlVTMQ4wDAYDVQQIEwVNYWluZTESMBAGA1UEBxMJTGltaW5ndG9uMR8wHQYDVQQKExZ4bWxzZWNsaWJzLnBocCBMaWJyYXJ5MSUwIwYDVQQDExx4bWxzZWNsaWJzL3d3dy5jZGF0YXpvbmUub3JnMB4XDTA4MDcwNzIwMjIzMVoXDTE4MDcwNTIwMjIzMVoweTELMAkGA1UEBhMCVVMxDjAMBgNVBAgTBU1haW5lMRIwEAYDVQQHEwlMaW1pbmd0b24xHzAdBgNVBAoTFnhtbHNlY2xpYnMucGhwIExpYnJhcnkxJTAjBgNVBAMTHHhtbHNlY2xpYnMvd3d3LmNkYXRhem9uZS5vcmcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDttdMyM5ISVD1Uz+BHAPrxVJ6N1eZonfg3DMvZVT0Zy64+qcXj8zuHC6lolDsfGnD8LUttraQ7qCL+bHKps+hjAhCRdx5Wcn4iDrlFpxFL7INnr6vekzsCQ45BPUrvksF9FKa7yX4iSDButmPfoT14gPnIuSe8Y5UeGe6Lk6sF0WgHyL+JmxOu377Kuhah2pXZ1+z7V4JIlNgemJtKlqrvgGeuE9TagfGHUL9BuZK5fUx/RSDUjqxUeKU3fft9fGIAZl0dduitC2Otv4dr1gxLrUmI+ZZ75FmtfKQT7SmS92QVI2B5WAPlL1bnbvhkZiyw7nFE+Q/wGJ2myE4RIFjdAgMBAAGjgd4wgdswHQYDVR0OBBYEFEC5iG0uGXLpQG/zMj/4TuDWfTpHMIGrBgNVHSMEgaMwgaCAFEC5iG0uGXLpQG/zMj/4TuDWfTpHoX2kezB5MQswCQYDVQQGEwJVUzEOMAwGA1UECBMFTWFpbmUxEjAQBgNVBAcTCUxpbWluZ3RvbjEfMB0GA1UEChMWeG1sc2VjbGlicy5waHAgTGlicmFyeTElMCMGA1UEAxMceG1sc2VjbGlicy93d3cuY2RhdGF6b25lLm9yZ4IJAPTrkMJbCOr1MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBACmSKrte07VrGB8dtrN5mrt28ILickQjguu46h6vChgQ4YfIAoA1KWNsZJUuuIzTDjE5xz2hsW37CI0yrNesv2ho2hhP+fIaxCGmcwLYXL80UaPRglYk5+wPWFOt3QFAVoEgwjLX9+y+c2Gu7xLgHAFZVRjQ5hhKT0Nj3vhnt0k8LcognNl1wKuWda7VL4tODp/2IOXr5o5v/OL3UesGfeWfvr8LVmMc5f7/vLAu1+2Yk+/C9/EZyf3BDZQ4z8ae/iwqprCTUIEjhUDcq4+0YN2EIw6suGE2FtWlsIywNErmoOhdrmntU61n3nFCQBi7QDUnZrAFrl4/bmk3eRJ00nE=</ds:X509Certificate>
