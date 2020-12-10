@@ -1,6 +1,7 @@
 <?php
 $url = 'https://efactura.dgi.gub.uy:6443/ePrueba/ws_eprueba?wsdl';
 $localCert = '../assets/certificates/original.pem';
+
 try {
     $client = new SoapClient($url, ['local_cert' => $localCert, 'passphrase' => 'pass']);
     $xmlr = new SimpleXMLElement("<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:dgi='http://dgi.gub.uy'>
@@ -22,4 +23,5 @@ try {
 } catch (SoapFault $e) {
     echo $e->getMessage();
 }
+
 echo PHP_EOL;

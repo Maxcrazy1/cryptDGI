@@ -1,0 +1,14 @@
+{
+  "require": {
+    "phpro/soap-client": "^1.4",
+    "econea/nusoap": "^0.9.10"
+  },
+  "require-dev": {
+    "laminas/laminas-code": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
