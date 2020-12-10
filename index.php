@@ -1,4 +1,5 @@
 <?php
+
 require 'controllers/xmlController.php';
 require 'controllers/encryptController.php';
 
@@ -9,5 +10,5 @@ $encryptObj = new CryptController();
 
 $xml = $xmlObj->loadXml('firmedXml/example.xml');
 $xml->createElementNS("http://cfe.dgi.gub.uy", "ns0");
-$xml = $encryptObj->encrypt($xml, 'assets/mycert.pfx', KEY_CERT);
+$xml = $encryptObj->encrypt($xml, 'assets/certificates/mycert.pfx', KEY_CERT);
 $xmlObj->saveXml($xml);
